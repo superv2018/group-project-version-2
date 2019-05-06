@@ -17,7 +17,7 @@ html, body {
 
 /* Header area*/
 header {
-  background-image: url(img/background.PNG);
+  background-image: url(background.PNG);
   padding: 1em;
   width: 100%;
   margin: 0 auto;
@@ -61,7 +61,6 @@ header {
 }
 
 /* main */
-
 main {
   min-height: calc(100vh - 70px)
 }
@@ -95,6 +94,7 @@ section {
   flex: 1;
   padding: 40px;
 }
+
 .centrecontainer {
   height: 20em;
   width: 100%;
@@ -110,6 +110,7 @@ section {
   font-weight: 500;
   color: #ffffff;
 }
+
 .customerStory section {
   background-color: #45FF98;
   min-height: 70vh;
@@ -119,7 +120,7 @@ section {
   text-align: center;
   padding: 40px;
   margin-bottom: .5em;
-  color:#0CB35D;
+  color: #0CB35D;
 }
 
 p {
@@ -129,7 +130,8 @@ p {
 .clienticon a {
   padding-right: 80px;
   text-decoration: none;
-  color: #0CB35D;;
+  color: #0CB35D;
+  ;
 }
 
 .clienticon {
@@ -157,8 +159,8 @@ p {
   border: 2px solid rgb(28, 11, 6);
   transition-delay: 2s;
 }
-/* footer */
 
+/* footer */
 .footer {
   height: 400px;
   background-color: rgba(182, 61, 50, 1);
@@ -182,14 +184,14 @@ p {
   color: black;
 }
 
-.footerIcon ul{
+.footerIcon ul {
   float: left;
 }
+
 .footerIcon li {
   display: inline-block;
   list-style: none;
-  float:left;
-
+  float: left;
 }
 
 .footerIcon i {
@@ -220,9 +222,11 @@ p {
 .footerContent2 p {
   margin-left: -1em;
 }
+
 form {
   margin: 0;
 }
+
 .email {
   height: 40px;
   width: 50%;
@@ -238,23 +242,24 @@ form {
   height: 40px;
   width: 20%;
   color: #ffffff;
-  float:;
+  float: ;
   border: 0;
   background-color: #eb0e15;
   letter-spacing: 1px;
   cursor: pointer;
   display: inline-block;
   float: left;
-  transition-property: background,color;
+  transition-property: background, color;
   transition-duration: 0.5s, 0.5s;
   transition-timing-function: ease, ease;
   transition-delay: 0s, 0s;
 }
+
 .submit:hover {
   background-color: #ffffff;
 }
 
- .copyright{
+.copyright {
   margin-top: 9.4em;
 }
 
@@ -299,9 +304,11 @@ form {
   .sectioncontent h2, p {
     text-align: center;
   }
-.sectionparagraphs {
-  padding: 0.1em;
-}
+
+  .sectionparagraphs {
+    padding: 0.1em;
+  }
+
   .clienticon a {
     display: block;
   }
@@ -316,40 +323,42 @@ form {
     flex-direction: column;
     height: 100%;
   }
-  .footerContent2 h4,p,input {
+
+  .footerContent2 h4, p, input {
     text-align: center;
   }
 
-.footerContent2 p {
-  margin-bottom: 2em;
-}
-.email {
-  width: 80%;
-  text-align: center;
-}
+  .footerContent2 p {
+    margin-bottom: 2em;
+  }
+
+  .email {
+    width: 80%;
+    text-align: center;
+  }
 
   .footerNav ul li {
     text-align: center;
   }
 
-.footericondiv {
-  position: relative;
-  bottom: 200px;
-}
+  .footericondiv {
+    position: relative;
+    bottom: 200px;
+  }
+
   .footerIcon {
     text-align: center;
     padding: 8px;
     margin: 0em 2em;
-
   }
-.footerIcon i {
-  font-size: 1.2em;
-  text-align: center;
 
-}
-.copyright {
-  position: relative;
-  top: 200px;
-}
+  .footerIcon i {
+    font-size: 1.2em;
+    text-align: center;
+  }
 
+  .copyright {
+    position: relative;
+    top: 200px;
+  }
 }
